@@ -2,7 +2,6 @@
 
 ## GETTING STARTED
 
-```markdown
 In this tutorial, you build your own Angular application from the start. This is a good way to experience a typical development process as you learn Angular application-design concepts, tools, and terminology.
 
 If you're new to Angular, try the Try it now quick-start application first. Try it now is based on a ready-made partially completed project. You can edit the application in StackBlitz and see the results in real time.
@@ -11,6 +10,7 @@ Try it now covers the same major topics —components, template syntax, routing,
 
 This Tour of Heroes tutorial provides an introduction to the fundamentals of Angular and shows you how to:
 
+```markdown
 - Set up your local Angular development environment.
 - Use the Angular CLI to develop an application.
 
@@ -38,12 +38,11 @@ This tutorial helps you gain confidence that Angular can do whatever you need it
 
 ## SOLUTION
 
-```
 After you complete all tutorial steps, the final application looks like this example from the url below.
 
 https://angular.io/tutorial/tour-of-heroes
 
-### Design your new application
+## Design your new application
 
 Showing the Dashboard view and the most heroic heroes:
 
@@ -56,11 +55,9 @@ Clicking the "Back" button returns you to the Dashboard. Links at the top take y
 When you click a different hero name, the read-only mini detail beneath the list reflects the new choice.
 
 You can click the "View Details" button to drill into the editable details of the selected hero.
-```
 
 ## Angular Standalone Components
 
-````
 The standalone flag and component imports
 
 Components, directives, and pipes can now be marked as standalone: true. Angular classes marked as standalone do not need to be declared in an NgModule (the Angular compiler will report an error if you try). I provided different examples from what was implemented in the Tour of Heroes demo as I encourage you to try this on your own!
@@ -142,7 +139,6 @@ bootstrapApplication(PhotoAppComponent, {
   ],
 });
 ```
-````
 
 ## Author
 
